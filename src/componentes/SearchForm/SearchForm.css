@@ -1,0 +1,12 @@
+.SearchForm {
+  display: grid;
+  grid-template-columns: 1fr 65px;
+  grid-auto-rows: auto;
+  justify-content: center;
+  width: 50%;
+}
+@media (max-width: 497px) {
+  .SearchForm {
+    width: 100%;
+  }
+}

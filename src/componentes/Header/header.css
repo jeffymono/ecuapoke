@@ -1,0 +1,11 @@
+.logo-pokemon {
+  object-fit: contain;
+  width: 100%;
+}
+.SearchForm-contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
