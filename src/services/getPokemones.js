@@ -1,5 +1,4 @@
 import { URL } from "./settings";
-import { getSinglePokemon } from "./getSinglePokemon";
 import axios from "axios";
 
 export function getPokemones({ keyword = null }) {
