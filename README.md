@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Link de la aplicación desplegada en heroku: [https://ecuapoke.herokuapp.com/]
+Link de la aplicación desplegada en heroku: https://ecuapoke.herokuapp.com/
 
 ## Available Scripts
 
