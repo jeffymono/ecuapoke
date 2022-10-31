@@ -91,7 +91,7 @@ Se instaló react Bootstrap con el comando "npm install react-bootstrap bootstra
 
 Se instaló react-router con el comando "npm install react-router-dom@6" para manejar todo el routeo de mi aplicación sin que se recargue la página y así obtener un SPA.
 
-## Instalación de Helmet
+### Instalación de Helmet
 
 Se instaló Helmet para manejar el título de cada página de la apliación.
 
