@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Link de la aplicación desplegada en heroku: [https://ecuapoke.herokuapp.com/]
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +70,47 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Desarrollo la App Front-end
+
+La construcción de la aplicación esta realizada con react js, bootstrap, Axios, JavaScript, HTML y CSS.
+
+### Creación de proyecto
+
+Se Creó el proyecto con el comando en el instalador de paqutes(npm) "npx create-react-app my-app", con esto se me crea la estructura principal de un proyecto con react js.
+
+### Instalacion de Axios
+
+Se instaló Axios con el comando "npm i axios" para realizar las llamadas a la API rest de pokemones, en este caso solamente se utilizó para el metodo GET.
+
+### Instalación de react Bootstrap
+
+Se instaló react Bootstrap con el comando "npm install react-bootstrap bootstrap" para utilizar los componentes y estilos propios de esta libreria.
+
+### Instalación de react-router
+
+Se instaló react-router con el comando "npm install react-router-dom@6" para manejar todo el routeo de mi aplicación sin que se recargue la página y así obtener un SPA.
+
+## Instalación de Helmet
+
+Se instaló Helmet para manejar el título de cada página de la apliación.
+
+### Creación de servicios
+
+Se creó servicios para obtener los pokemones de la API, y así poder presentarlos en la aplicación.
+
+### Creación de componentes
+
+Se creó componentes que voy a reutilizar en varias partes de la aplicación y así solamente llamar a los que ya existen.
+
+## Creación de Hooks personalizados
+
+Así mismo como los componentes, se pueden crear hooks para poder utilizarlos a nivel de toda la aplicación sin la necesidad de crear varios cada vez que se necesite obtener información en una parte de la app.
+
+## Creación de paginas
+
+Se creó las páginas principales de la app, estas son 3: Home, Detalle y Pagina para ver los resultados de la búsqueda.
+
+## Creación de Context
+
+Se creó hooks de contexto para reutilizar la informacion a nivel de toda la aplicación.
